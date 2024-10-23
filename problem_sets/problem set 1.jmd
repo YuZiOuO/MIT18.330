@@ -67,6 +67,7 @@ that $x_0 < \sqrt{y}$.
 the $x_n$ form an increasing sequence that is bounded above, and hence they converge.
 (This is a [theorem](https://en.wikipedia.org/wiki/Monotone_convergence_theorem)
 that we will just assume for this course.)
+(该算法是收敛的，但似乎不是单调收敛的，这里可能有问题。)
 
 3. Write a function `babylon` that implements this algorithm. It takes
 a tolerance $\epsilon$ and iterates until the residual is $< \epsilon$.
